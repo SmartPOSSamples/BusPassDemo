@@ -1,0 +1,21 @@
+<resources>
+
+    <style name="AppBaseTheme" parent="android:Theme.Light"></style>
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="titlebarstyle" parent="AppTheme">
+        <item name="android:windowTitleSize">18dip</item>
+    </style>
+
+
+    <style name="old_dialog" parent="@style/AppTheme">
+        <!-- 设置自定义布局的背景透明 -->
+        <item name="android:background">#00000000</item>
+        <!-- 设置window背景透明，也就是去边框 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+</resources>
